@@ -1,0 +1,14 @@
+# Virtual environments
+NEURO_AI_PROJECT/
+CodeCrackers/
+.env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyd
+*.dll
+
+# ML / PyTorch junk
+*.pt
+*.pth
