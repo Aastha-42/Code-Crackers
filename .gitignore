@@ -1,14 +1,25 @@
-# Virtual environments
-NEURO_AI_PROJECT/
+# ==== Virtual Environments ====
 CodeCrackers/
-.env/
-
-# Python
+venv/
+Lib/
+Scripts/
+Include/
+pyvenv.cfg
 __pycache__/
-*.pyc
-*.pyd
-*.dll
 
-# ML / PyTorch junk
+# ==== Python ====
+*.pyc
+
+# ==== Data (never push) ====
+data/
+*.csv
+*.zip
+*.nii
+*.dcm
+
+# ==== Models ====
 *.pt
 *.pth
+
+# ==== Logs ====
+*.log
